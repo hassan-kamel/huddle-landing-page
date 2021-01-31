@@ -1,0 +1,231 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("../../images/bg-desktop.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #674baf;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 47.9375rem) {
+  body {
+    background-image: url("../../images/bg-mobile.svg");
+  }
+}
+
+.container {
+  margin: 3.75rem auto;
+}
+
+@media (max-width: 29.9375rem) {
+  .container {
+    width: 28rem;
+  }
+}
+
+@media (min-width: 30rem) {
+  .container {
+    width: 29rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .container {
+    width: 18.4375rem;
+    margin: 2.375rem auto;
+  }
+}
+
+@media (min-width: 48rem) {
+  .container {
+    width: 47rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  .container {
+    width: 61rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  .container {
+    width: 81.25rem;
+  }
+}
+
+header {
+  margin-bottom: 5.5rem;
+}
+
+@media (max-width: 47.9375rem) {
+  header {
+    margin-bottom: 3.5rem;
+  }
+}
+
+header .my-img img {
+  width: 12.5rem;
+  height: 2.5rem;
+}
+
+@media (max-width: 47.9375rem) {
+  header .my-img img {
+    width: 7.8125rem;
+    height: 1.9rem;
+  }
+}
+
+.my-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 47.9375rem) {
+  .my-flex {
+    display: block;
+  }
+}
+
+.my-flex .left {
+  margin-right: 3.4375rem;
+}
+
+@media (max-width: 47.9375rem) {
+  .my-flex .left {
+    margin-bottom: 2rem;
+  }
+}
+
+.my-flex .left img {
+  width: 43.75rem;
+}
+
+@media (max-width: 47.9375rem) {
+  .my-flex .left img {
+    width: 18.75rem;
+  }
+}
+
+.my-flex .right {
+  width: 31.875rem;
+}
+
+@media (max-width: 47.9375rem) {
+  .my-flex .right {
+    width: 18.75rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+
+.my-flex .right h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 47.9375rem) {
+  .my-flex .right h2 {
+    font-size: 1.5rem;
+  }
+  .my-flex .right h2:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+}
+
+.my-flex .right p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 1.875rem;
+}
+
+.my-flex .right .my-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #674baf;
+  padding: .75rem 3.4375rem;
+  border-radius: 50px;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+          box-shadow: 1px 1px 1px 1px black;
+  border: none;
+}
+
+.my-flex .right .my-btn:active {
+  background-color: #e882e8;
+  color: #fff;
+}
+
+.my-flex .right .my-btn:hover {
+  cursor: pointer;
+}
+
+.my-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 60px;
+}
+
+@media (max-width: 47.9375rem) {
+  .my-logos {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 0;
+  }
+}
+
+.my-logos .logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-logos .logo i {
+  font-size: 1rem;
+}
+
+.my-logos .logo:active {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
+.my-logos .logo:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

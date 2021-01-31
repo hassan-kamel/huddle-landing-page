@@ -1,0 +1,50 @@
+html {
+    font-size: $font;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url($bg-desk);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: hsl(257, 40%, 49%);
+    padding: 0;
+    margin: 0;
+    color: white;
+    @include openSans;
+    font-weight: 400;
+    @include tablet-down {
+        background-image: url($bg-mob);
+    }
+}
+
+//////////////////////
+// HELPERS         //
+////////////////////
+.container {
+    margin: 3.75rem auto;
+    @include smMobile {
+        width: 28rem;
+    }
+    @include lgMobile {
+        width: 29rem;
+    }
+    @include tablet-down {
+        width: 18.4375rem;
+        margin: 2.375rem auto;
+    }
+    @include tablet {
+        width: 47rem;
+    }
+    @include labtop {
+        width: 61rem;
+    }
+    @include desktop {
+        width: 81.25rem;
+    }
+}
