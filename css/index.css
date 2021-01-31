@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: url("../../images/bg-desktop.svg");
+  background: url("../images/bg-desktop.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -22,7 +22,7 @@ body {
 
 @media (max-width: 47.9375rem) {
   body {
-    background-image: url("../../images/bg-mobile.svg");
+    background-image: url("../images/bg-mobile.svg");
   }
 }
 
